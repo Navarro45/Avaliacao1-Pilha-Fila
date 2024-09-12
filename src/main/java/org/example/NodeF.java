@@ -3,7 +3,6 @@ package org.example;
 public class NodeF {
     private Integer informacao;
     private NodeF proximo;
-    private NodeF anterior;
     private Integer indice;
 
     public NodeF()
@@ -26,14 +25,6 @@ public class NodeF {
 
     public void setProximo(NodeF proximo) {
         this.proximo = proximo;
-    }
-
-    public NodeF getAnterior() {
-        return anterior;
-    }
-
-    public void setAnterior(NodeF anterior) {
-        this.anterior = anterior;
     }
 
     public Integer getIndice(){
