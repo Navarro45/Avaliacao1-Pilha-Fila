@@ -13,7 +13,7 @@ public class NodeP {
     {
         this.id = null;
         this.proximo = null;
-    }
+    }`
 
     public Integer getId() {
         return id;
