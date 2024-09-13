@@ -1,5 +1,7 @@
 package org.example;
 
+
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Solicitacao {
@@ -7,7 +9,7 @@ public class Solicitacao {
     private int id;
     private String descricao;
     private Date data;
-    private DateTime hora;
+    private LocalDateTime hora;
 
     public int getId() {
         return id;
@@ -33,11 +35,11 @@ public class Solicitacao {
         this.data = data;
     }
 
-    public DateTime getHora() {
+    public LocalDateTime getHora() {
         return hora;
     }
 
-    public void setHora(DateTime hora) {
+    public void setHora(LocalDateTime hora) {
         this.hora = hora;
     }
 }

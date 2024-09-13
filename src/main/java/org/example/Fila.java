@@ -11,7 +11,6 @@ public class Fila {
     public Scanner entrada = new Scanner(System.in);
 
     public Fila(int capacidade){
-
         this.capacidade = capacidade;
         this.primeiro = -1;
         this.ultimo = -1;

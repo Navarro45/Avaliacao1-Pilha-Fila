@@ -1,8 +1,8 @@
 package org.example;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Scanner;
+import java.time.LocalDateTime;
 
 public class Pilha {
     private NodeP topo;
