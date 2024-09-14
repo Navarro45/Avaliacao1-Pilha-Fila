@@ -84,9 +84,9 @@ public class Menu {
                         f1.imprimirCliente();
                         break;
                     case 4:
-                        System.out.print("Digite o ID do atendimento");
+                        System.out.print("Digite o ID do atendimento: ");
                         this.id = scanner.nextLine();
-                        System.out.print("Digite a descrição do atendimento");
+                        System.out.print("Digite a descrição do atendimento: ");
                         this.descricao = scanner.nextLine();
                         System.out.print("Digite o nome do Cliente: ");
                         this.nome = scanner.nextLine();
